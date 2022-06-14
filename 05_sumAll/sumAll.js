@@ -17,6 +17,7 @@ const sumAll = function(n1, n2) {
             sum += i;
         }
     }
+    
     else if (n2<n1)
         for(i=n2; i<=n1;i++){
         sum += i;
