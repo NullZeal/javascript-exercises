@@ -8,7 +8,7 @@ const palindromes = function (word) {
     console.log(filteredWordArray);
 
     while(i > 0){
-        if(filteredWordArray.length == 1){return true;}
+        if(filteredWordArray.length <= 1){return true;}
         let firstLetter = filteredWordArray[0].toLowerCase();
         let lastLetter = filteredWordArray[filteredWordArray.length - 1].toLowerCase();
 
