@@ -4,15 +4,14 @@ const fibonacci = function(position) {
     if(position == 1){return 1;}
 
     let fibonacciArray = [0,1];
-
     let counter = 2;
 
     while (counter <= position){
         fibonacciArray.push(fibonacciArray[counter-1] + fibonacciArray[counter-2]);
         counter++;
     }
-
-    return fibonacciArray[position-1] + fibonacciArray[position-2];
+    
+    return fibonacciArray[position];
 };
 
 // Do not edit below this line
